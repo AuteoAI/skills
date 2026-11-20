@@ -27,7 +27,7 @@ auteo model get suno/v6 --json        # length limits for prompt, lyrics, style,
 | `suno/v6-wild` | more experimental results                                                                |
 | `m-a-p/yue2`   | one song per request, no cover; length follows the lyrics (lyrics up to 1500 characters) |
 
-Each request is charged once, whatever you ask for. Check it with `auteo generate cost <model> --json`.
+Each request is charged once, whatever you ask for. Check it with `auteo generate cost <model> --json`. YuE2: the first successful song on each account is free, then 2 credits per request; when signed in, `generate cost` shows the user's actual price (0 while the free song is still available).
 
 ## 2. Two ways to ask
 
